@@ -1,0 +1,21 @@
+{
+  "name": "authservice",
+  "version": "2.0.0",
+  "description": "Authservice_io_provides_Authentication_and_Authorisation_servicesfor_web_based_applications__It_can_also_maintain_user_profile_informationrelationship_between_users_and_assist_with_communicating_with_users_byemail_and_SMS_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.5.2"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
